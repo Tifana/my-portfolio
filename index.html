@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/950e8e967e.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <div class="page-wrap">
+      <nav id="nav">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </div>
+        <div class="menu-navbar">
+          <ul class="links">
+            <li class="link">
+              <a href="#">Home</a>
+            </li>
+            <li class="link">
+              <a href="#project">Project</a>
+            </li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link">
+              <a href="#documents">Docs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- -------------------banner------------------------ -->
+      <div class="banner">
+        <div class="section-banner"> 
+          <div class="bg-options">
+            <button onclick="changeColor()" class="blue"></button>
+            <button class="aqua" onclick="changeColor2()"></button>
+            <button class="pink" onclick="changeColor3()"></button>
+          </div>
+          <div class="typewriter">
+            <h1 class="intro">Hi! I'm Tifana. Welcome to my website </h2>
+          </div>
+        </div>
+        <div class="section-banner skills">
+          <img class="skill" src="/images/html-5.png" alt="html">
+          <img class="skill" src="/images/css-3.png" alt="css">
+          <img class="skill smaller" src="images/js.png" alt="javascript">
+          <img class="skill" src="images/react.png" alt="react">
+          <img class="skill smaller" src="images/ruby.png" alt="ruby">
+          <img src="images/figma.png" class="skill smaller" alt="figma">
+        </div>
+      </div>
+      <!-- ----------------------------Projects----------------------------- -->
+      <div class="project" id="project">
+        <h1 class="h1title">Projects</h1>
+        <div class="projects">
+          <div class="card">
+            <img src="images/projects/clayedu.png" alt="Placeholder Image">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis nibh quis urna pretium, at posuere nulla blandit. Sed sed vulputate velit. Nullam nec nisl ante.</p>
+            <div class="tags">
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/projects/clayedu.png" alt="Placeholder Image">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis nibh quis urna pretium, at posuere nulla blandit. Sed sed vulputate velit. Nullam nec nisl ante.</p>
+            <div class="tags">
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">Javascript</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/projects/clayedu.png" alt="Placeholder Image">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis nibh quis urna pretium, at posuere nulla blandit. Sed sed vulputate velit. Nullam nec nisl ante.</p>
+            <div class="tags">
+              <p class="tag">HTML</p>
+              <p class="tag">CSS</p>
+              <p class="tag">Javascript</p>
+            </div>
+          </div> 
+        </div>
+        <div class="arrow">
+          <a href="#nav">
+            <img class="arrow-up" src="images/up-arrow.png" alt="up">
+          </a>
+        </div> 
+      </div>
+  
+      <!-- ----------------------------------About-------------------------------------- -->
+      <div id="about">
+        <h1 class="h1title">About Me</h1>
+        <div class="description">
+          <img src="images/myLinkedinPic.jpg" alt="">
+          <p class="aboutMe">My first introduction to Web development when I participate in Javascript crash course by Women Techmaker Berlin. After that, I completed my intensive web development bootcamp by Le Wagon in late 2020. I have been working as a freelance web developer for the last two years. I create and maintain websites. I keep improving my knowledge and skills by buildng various web applications using the latest technology/frameworks. 
+          <br>
+          I'm passionate about women empowerment and education. Therefore, I am actively volunteering in organisations that share the same values. I'm passionate about women empowerment and education. Therefore, I am actively volunteering in organisations that share the same values. </p>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/tifanarosa/" target="_blank">
+                  <img src="images/socialMedias/linkedin.png" alt="linkedin">
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Tifana" target="_blank">
+                  <img src="images/socialMedias/github.png" alt="github">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rosadross/" target="_blank">
+                  <img src="images/socialMedias/instagram.png" alt="instagram">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="arrow">
+          <a href="#nav">
+            <img class="arrow-up" src="images/up-arrow.png" alt="up">
+          </a>
+        </div> 
+      </div>
+  
+      <!-- ----------------------------Documents---------------------------------- -->
+      <div class="documents" id="documents">
+        <h1 class="h1title">Documents</h1>
+        <p>Want to know more about me? Feel free to download my resume and certificates bellow </p>
+        <hr>
+        <div class="download-wrapper">
+          <div class="download">
+            <h3>Resume</h3>
+            <a href="downloadDocs/Resume_Tifana_Rosa_Taftazani.pdf" download>
+            <img src="images/documents/file.png" alt="resume">
+          </a>
+          </div>
+          <div class="download">
+            <h3>Le Wagon</h3>
+            <a href="downloadDocs/Resume_Tifana_Rosa_Taftazani.pdf" download>
+            <img src="images/documents/certificate.png" alt="resume">
+            </a>
+          </div>
+          <div class="download">
+            <h3>FreeCodeCamp</h3>
+            <a href="downloadDocs/Resume_Tifana_Rosa_Taftazani.pdf" download>
+            <img src="images/documents/certificate.png" alt="resume">
+          </a>
+        </div>  
+           
+      </div>
+      <div class="arrow">
+        <a href="#nav">
+          <img class="arrow-up" src="images/up-arrow.png" alt="up">
+        </a>
+      </div> 
+    </div>
+
+       
+    <script src="script.js"></script>
+  </body>
+</html>
+
