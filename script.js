@@ -17,3 +17,9 @@ const images = ["linkedin.png", "github.png", "instagram.png"];
 for (let i = 0; i < images.length; i++) {
   new Image().src = images[i];
 }
+
+const hamburger = document.querySelector(".hamburger");
+hamburger.onclick = function () {
+  const navBar = document.querySelector(".menu-navbar");
+  navBar.classList.toggle("active");
+};
